@@ -1,0 +1,18 @@
+# Definición de la función principal
+def operaciones(num1, num2):
+    suma = num1 + num2
+    resta = num1 - num2
+    multiplicacion = num1 * num2
+    modulo = suma % resta
+    
+    print("Suma:", suma)
+    print("Resta:", resta)
+    print("Multiplicación:", multiplicacion)
+    print("Módulo (suma % resta):", modulo)
+
+# Solicitar al usuario los números
+numero1 = int(input("Ingrese el primer número: "))
+numero2 = int(input("Ingrese el segundo número: "))
+
+# Llamar a la función con los números ingresados
+operaciones(numero1, numero2)
